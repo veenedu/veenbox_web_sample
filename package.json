@@ -6,8 +6,13 @@
     "react-scripts": "0.8.2"
   },
   "dependencies": {
+    "faker": "^3.1.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-collapse": "^2.3.3",
+    "react-dom": "^15.4.1",
+    "react-height": "^2.1.1",
+    "react-motion": "^0.4.5",
+    "rebass": "^0.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
