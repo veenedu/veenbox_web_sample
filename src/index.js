@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index2.css';
+import 'veenbox/dist/css-reset.css';
 
 ReactDOM.render(
   <App />,
