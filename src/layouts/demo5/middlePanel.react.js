@@ -20,9 +20,11 @@ function addStory(stories,num){
   if(stories.length<num){
     let newStory =  (<div
         style={{
-          margin:10,
           backgroundColor:'#fff',
-          border:'1px solid #888'
+          margin:5,
+          border:'1px solid #888',
+          padding:3,
+          borderRadius:3
         }}
         key={stories.length}>
         {getRandomWords(60)}
@@ -57,7 +59,9 @@ const middlePannel = () => (
         />
         </Container>
       </ColumnHeader>
-        <ColumnBody style={{backgroundColor:'#fff'}}>
+        <ColumnBody style={{
+            backgroundColor:'#ccc'
+          }}>
           <ScrollView>
             {stories}
           </ScrollView>
